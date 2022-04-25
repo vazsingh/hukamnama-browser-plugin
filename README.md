@@ -6,4 +6,4 @@ What's a 'Hukamnama'?
 Hukamnama, is a compound of two Persian words hukm, meaning command or order, and namah, meaning letter. A Hukumnama is taken in each Gurdwara daily when Guru Granth Sahib Ji (holy scripture) is opened in the early hours of the morning. [More here](https://www.sikhiwiki.org/index.php/Hukamnama)
 
 
-//test
+//test remove
