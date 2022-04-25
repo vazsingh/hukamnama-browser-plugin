@@ -2,10 +2,11 @@
   "manifest_version": 3,
 
   "name": "Daily Hukamnama",
-  "description": "This extension will fetch a daily Hukamnama",
+  "description": "Displays the daily Sikh Hukamanama from Sri Darbar Sahib Amritsar (Golden Temple), creating a moment of reflection and peace.",
   "version": "1.0",
 
   "action": {
+    "default_title": "Click to view today's Hukamnama",
    "default_popup": "popup.html",
       "default_icon": {
       "16": "/img/icon_16.png",
@@ -15,12 +16,13 @@
     }
   },
     "icons": {
-      "16": "/img/icon_16.png",
-      "32": "/img/icon_32.png",
-      "48": "/img/icon_48.png",
-      "128": "/img/icon_128.png"
+      "16": "/img/icon_16.png", //favicon
+      "32": "/img/icon_32.png", //for windows
+      "48": "/img/icon_48.png", //extension manager page
+      "128": "/img/icon_128.png" //chrome webstore
   },
   "permissions": [
-   "activeTab"
-   ]
+   "tabs"
+]
+
 }
