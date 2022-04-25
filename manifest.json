@@ -9,18 +9,18 @@
   "action": {
     "default_title": "Click to view today's Hukamnama",
     "default_popup": "popup.html",
-    "default_icon": { // Icons specific to the toolbar
+    "default_icon": { 
       "16": "/img/icon_16.png",
       "32": "/img/icon_32.png",
       "48": "/img/icon_48.png",
       "128": "/img/icon_128.png"
     }
   },
-  "icons": { // additional icons in the following sizes for uses outside of the toolbar.
-    "16": "/img/icon_16.png", //favicon
-    "32": "/img/icon_32.png", //for windows
-    "48": "/img/icon_48.png", //extension manager page
-    "128": "/img/icon_128.png" //chrome webstore
+  "icons": { 
+    "16": "/img/icon_16.png", 
+    "32": "/img/icon_32.png", 
+    "48": "/img/icon_48.png", 
+    "128": "/img/icon_128.png"
   },
   "permissions": [
     "tabs"

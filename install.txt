@@ -1,0 +1,10 @@
+How to install this build
+=========================
+
+- Extract the content of this zip into a folder on your file system.
+
+- In your browser, open a new tab and type "chrome://extensions" then ENTER.
+
+- Enable "Developer Mode" option.
+
+- Click "Load Unpacked Extension" button, then select the folder where are extension files. And click OK.
