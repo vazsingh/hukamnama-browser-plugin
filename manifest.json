@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+
+  "name": "Daily Hukamnama",
+  "description": "This extension will fetch a daily Hukamnama",
+  "version": "1.0",
+
+  "action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
