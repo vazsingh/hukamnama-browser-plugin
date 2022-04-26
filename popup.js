@@ -1,8 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var checkPageButton = document.getElementById('checkPage');
-  checkPageButton.addEventListener('click', function () {
 
 
 
-  }, false);
-}, false);
+chrome.runtime.sendMessage({ message: "popup" }, function (response) {
+  //
+});

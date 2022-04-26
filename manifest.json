@@ -2,27 +2,28 @@
   "manifest_version": 3,
   "name": "Daily Hukamnama",
   "description": "Displays the daily Sikh Hukamanama from Sri Darbar Sahib Amritsar (Golden Temple), creating a moment of reflection and peace.",
-  "version": "1.0",
+  "version": "1.0.0",
   "background": {
     "service_worker": "background.js"
   },
   "action": {
     "default_title": "Click to view today's Hukamnama",
     "default_popup": "popup.html",
-    "default_icon": { 
+    "default_icon": {
       "16": "/img/icon_16.png",
       "32": "/img/icon_32.png",
       "48": "/img/icon_48.png",
       "128": "/img/icon_128.png"
     }
   },
-  "icons": { 
-    "16": "/img/icon_16.png", 
-    "32": "/img/icon_32.png", 
-    "48": "/img/icon_48.png", 
+  "icons": {
+    "16": "/img/icon_16.png",
+    "32": "/img/icon_32.png",
+    "48": "/img/icon_48.png",
     "128": "/img/icon_128.png"
   },
   "permissions": [
     "tabs"
-  ]
+  ],
+  "short_name": "Daily Hukamnama"
 }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<b>Hello world!</b>    
+
+<script>
+    fetch('https://www.sikhnet.com/hukam')
+    .then(response => response.text())
+    .then((data) => {
+      console.log(data)
+    })
+</script>
+    <iframe src="https://www.sikhnet.com/hukam" style="border:none;" title="Iframe Example"></iframe>
+</body>
+</html>
